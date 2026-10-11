@@ -1,0 +1,127 @@
+# =====================================================================
+#  EL CLUB · Padel & Social — Chicureo
+#  Datos reales: nombre, logo, WhatsApp (también para reservas), Instagram, zona.
+#  Todo lo marcado con "muestra" es contenido de ejemplo: reemplazar cuando
+#  el club entregue la información (dirección, horarios, precios, equipo,
+#  reseñas, fotos y videos propios).
+#  Generar: python3 ../plantilla-padel/build.py club.yml
+# =====================================================================
+
+nombre: El Club
+slug: elclub
+salida: .
+
+seo:
+  titulo: El Club · Padel & Social en Chicureo
+  descripcion: Club de pádel y social en Chicureo. Clases por nivel, partidos todas las semanas y comunidad. Reserva tu cancha por WhatsApp.
+  imagen: assets/marca/logo-original.jpg
+
+marca:
+  logo: assets/marca/logo.png          # versión horizontal (monograma + EL CLUB), blanco sin fondo
+  logo_ancho: 1152
+  logo_alto: 185
+  favicon: assets/marca/favicon.png
+  apple_icon: assets/marca/favicon.png
+
+contacto:
+  whatsapp: "56953272777"
+  whatsapp_visible: +56 9 5327 2777
+  reservas:                            # las reservas se hacen por WhatsApp
+    nombre: WhatsApp
+    url: https://wa.me/56953272777?text=Hola%20El%20Club%2C%20quiero%20reservar%20una%20cancha.
+  instagram: https://www.instagram.com/elclub.cl/
+  facebook: ""
+
+ubicacion:
+  barrio: Chicureo
+  zona: Colina · Santiago
+  comuna: Colina
+  direccion: Chicureo, Colina
+  referencia: Dirección exacta por confirmar
+  direccion_corta: Chicureo, Colina
+  direccion_completa: Chicureo, Colina, Región Metropolitana
+  mapa: Chicureo, Colina, Chile
+  muestra: true                        # falta la dirección exacta
+
+horarios_muestra: true                 # horarios de ejemplo
+horarios:
+  0: 09:00 – 21:00
+  1: 07:00 – 23:00
+  2: 07:00 – 23:00
+  3: 07:00 – 23:00
+  4: 07:00 – 23:00
+  5: 07:00 – 23:00
+  6: 08:00 – 22:00
+
+hero:
+  poster: assets/fotos/hero.jpg        # foto de ejemplo (stock): reemplazar por foto o video del club
+
+dato_hero:
+  numero: "6"
+  texto: "canchas en<br>Chicureo"
+  muestra: true
+
+pilares:                               # fotos de ejemplo (stock)
+  - imagen: assets/fotos/palas.jpg
+  - imagen: assets/fotos/partido.jpg
+  - imagen: assets/fotos/pala-naranja.jpg
+
+metodo:
+  nombre: Método El Club
+  titulo_html: "Método <em>El Club.</em>"
+  foto: assets/fotos/cancha.jpg
+  foto_alt: Canchas de pádel con paredes de vidrio
+  muestra: true
+
+garantia:
+  dias: 60
+  muestra: true
+
+equipo_muestra: true
+equipo:
+  - { nombre: Nombre Apellido, cargo: Fundador, foto: assets/equipo/equipo-1.jpg, bio: "Texto de ejemplo: quién es, cuánto lleva jugando y por qué creó El Club." }
+  - { nombre: Nombre Apellido, cargo: Head coach, foto: assets/equipo/equipo-2.jpg, bio: "Texto de ejemplo: experiencia como jugador y entrenador, y cómo arma los grupos." }
+  - { nombre: Nombre Apellido, cargo: Entrenador, foto: assets/equipo/equipo-3.jpg, bio: "Texto de ejemplo: especialidad (iniciación, competencia, niños…)." }
+
+resenas:
+  nota: "5,0"
+  cantidad: 40
+  muestra: true
+  lista:
+    - { nombre: Nombre A., detalle: "Socio · ejemplo", texto: "Reseña de ejemplo: aquí va una opinión real de Google sobre las clases y el ambiente del club." }
+    - { nombre: Nombre B., detalle: "Socia · ejemplo", texto: "Reseña de ejemplo: aquí va una opinión real sobre las canchas y la comunidad." }
+    - { nombre: Nombre C., detalle: "Jugador · ejemplo", texto: "Reseña de ejemplo: aquí va una opinión real sobre los partidos y eventos." }
+
+precios:
+  grupos: [4, 2]
+  mensual: { 4: 54990, 2: 84990 }
+  anual:   { 4: 45990, 2: 70990 }
+  muestra: true
+
+paleta:
+  marca: "#183B27"        # verde del logo
+  oscuro: "#0E2418"
+  acento: "#E6DDB4"       # crema del logo
+  tono: "#C9B98A"         # crema tostado
+  tono_oscuro: "#7A6A3E"
+  crema: "#F2EDD7"
+  fondo_claro: "#FAF8F0"
+
+textos:
+  botones:
+    reservar_largo: Reservar cancha por WhatsApp
+  footer:
+    lema: "Padel & Social en Chicureo. Entrena, conecta, compite."
+    reservas: Reservas
+
+estilo:
+  tipografia: clasica     # serif, como el logo
+  forma: suave
+  hero: completo
+  etiquetas: simple
+  variante_textos: 3
+  secciones: [club, metodo, garantia, equipo, resenas, visita, cta]
+  menu: [club, metodo, precios, equipo, visita]
+  propuesta_inicial: marca
+  selector_propuestas: true
+  nombres_propuestas: { marca: "A · Verde", clara: "B · Crema" }
