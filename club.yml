@@ -54,7 +54,10 @@ horarios:
   6: 08:00 – 22:00
 
 hero:
-  poster: assets/fotos/hero.jpg        # foto de ejemplo (stock): reemplazar por foto o video del club
+  video: assets/video/hero                         # VIDEO-ROJAN-OK-1.mp4 (Drive), 1600 px sin audio · .webm y .mp4
+  video_vertical: assets/video/hero-vertical   # recorte 9:16 para celulares
+  poster: assets/video/hero-poster.jpg
+  poster_vertical: assets/video/hero-poster-vertical.jpg
 
 dato_hero:
   numero: "6"
