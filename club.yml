@@ -64,10 +64,10 @@ dato_hero:
   texto: "canchas en<br>Chicureo"
   muestra: true
 
-pilares:                               # fotos de ejemplo (stock)
-  - imagen: assets/fotos/palas.jpg
-  - imagen: assets/fotos/partido.jpg
-  - imagen: assets/fotos/pala-naranja.jpg
+pilares:                               # clips del video del héroe (VIDEO-ROJAN-OK-1), 4:5 a 0,7x
+  - video: assets/video/entrena
+  - video: assets/video/conecta
+  - video: assets/video/compite
 
 metodo:
   nombre: Método El Club
@@ -78,7 +78,15 @@ metodo:
 
 garantia:
   dias: 60
+  video: assets/video/garantia         # toma de las canchas del video del héroe (5,4–6,9 s, a 0,5x, en loop)
   muestra: true
+
+partners_muestra: true                 # logos de ejemplo: reemplazar por los auspiciadores reales
+partners:
+  - { nombre: Babolat, logo: assets/partners/babolat.png, ancho: 480, alto: 105 }
+  - { nombre: Bullpadel, logo: assets/partners/bullpadel.png, ancho: 147, alto: 120 }
+  - { nombre: adidas, logo: assets/partners/adidas.png, ancho: 184, alto: 120 }
+  - { nombre: Gatorade, logo: assets/partners/gatorade.png, ancho: 155, alto: 120 }
 
 equipo_muestra: true
 equipo:
@@ -123,7 +131,7 @@ estilo:
   hero: completo
   etiquetas: simple
   variante_textos: 3
-  secciones: [club, metodo, garantia, equipo, resenas, visita, cta]
+  secciones: [club, partners, metodo, garantia, equipo, resenas, visita, cta]
   menu: [club, metodo, precios, equipo, visita]
   propuesta_inicial: marca
   selector_propuestas: true
