@@ -64,11 +64,6 @@ dato_hero:
   texto: "canchas en<br>Chicureo"
   muestra: true
 
-pilares:                               # clips del video del héroe (VIDEO-ROJAN-OK-1), 4:5 a 0,7x
-  - video: assets/video/entrena
-  - video: assets/video/conecta
-  - video: assets/video/compite
-
 metodo:
   nombre: Método El Club
   titulo_html: "Método <em>El Club.</em>"
@@ -78,7 +73,6 @@ metodo:
 
 garantia:
   dias: 60
-  video: assets/video/garantia         # toma de las canchas del video del héroe (5,4–6,9 s, a 0,5x, en loop)
   muestra: true
 
 partners_muestra: true                 # logos de ejemplo: reemplazar por los auspiciadores reales
